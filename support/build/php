@@ -64,6 +64,8 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
     --with-openssl \
     --with-pgsql \
     --with-pdo-pgsql \
+    --with-sqlite3 \
+    --with-pdo-sqlite \
     --with-readline \
     --enable-sockets \
     --enable-zip \
@@ -84,8 +86,6 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
     --enable-pcntl=shared \
     --enable-shmop=shared \
     --enable-soap=shared \
-    --with-sqlite3=shared \
-    --with-pdo-sqlite=shared \
     --with-xmlrpc=shared \
     --with-xsl=shared \
     $configureopts
